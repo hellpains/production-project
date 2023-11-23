@@ -10,4 +10,3 @@ export function classNames(cls: string, mods: Mods = {}, additional: string[] = 
   ]
     .join(' ');
 }
-console.log(classNames('someClass', { hovered: true, scrollable: true }, ['class1', 'class2']));
